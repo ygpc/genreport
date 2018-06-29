@@ -4,6 +4,8 @@ echo "input new report name."
 read FNAME
 
 echo "\documentclass{jsarticle}
+%if you want a twocolumn syle format please comment out this.
+%\documentclass[twocolumn]{jsarticle}
 \usepackage{amsmath,amssymb}
 \usepackage{here}
 \usepackage[dvipdfmx]{graphicx}
